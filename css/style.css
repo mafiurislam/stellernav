@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.header {
+    background: #0381cd;
+    padding: 15px 0;
+}
+
+
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stellarnav.dark.right.desktop {
+    background: none;
+    width: max-content;
+}
+
+.stellarnav.dark li a {
+    color: #fff;
+}
+
+
+
+.stellarnav > ul > li > a {
+    padding: 0;
+}
+
+.stellarnav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    gap: 70px;
+}
+
+.stellarnav.mobile {
+    position: absolute;
+    width: max-content;
+    background: none;
+    right: 0;
+}
